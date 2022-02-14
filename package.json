@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./server/index.js",
-    "build-client": "webpack"
+    "start": "node ./script/start.js",
+    "build-client": "webpack",
+    "build": "node ./script/build.js"
   },
   "keywords": [],
   "author": "",
@@ -32,6 +33,9 @@
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.17.0",
     "babel-loader": "^8.2.3",
-    "html-webpack-plugin": "^4.5.2"
+    "chalk": "^5.0.0",
+    "html-webpack-plugin": "^4.5.2",
+    "react-dev-utils": "^12.0.0",
+    "webpack-dev-middleware": "^5.3.1"
   }
 }

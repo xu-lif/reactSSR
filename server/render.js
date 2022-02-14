@@ -57,4 +57,4 @@ const renderAppServer = function (req, res) {
   
 }
 
-module.exports = renderAppServer
+export default renderAppServer
